@@ -2,14 +2,17 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
-//import React from 'react';
+import React from 'react';
+import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
         <Header />
-        {/* other sections of your website */}
-        <About />
+        <Routes>
+          {/* other sections of your website */}
+          <Route path='/about' element={<About />} />
+        </Routes>
         <Footer />
     </div>
   );
