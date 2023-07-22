@@ -1,0 +1,28 @@
+.social-links {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-links a:hover {
+    color: #007bff;
+  }
+  
+  .social-links {
+    margin-left: auto;
+  }
+
+  .cc {
+
+    color: #0c2642;
+}
+  
